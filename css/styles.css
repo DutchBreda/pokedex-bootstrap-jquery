@@ -1,0 +1,103 @@
+/* yellow. Pantone: PMS 7408 C (Nearest Match) Hex Color: #ffcb05; RGB: (255,203,5) CMYK: (0,20,100,0)
+blue. Pantone: PMS 660 C (Nearest Match) Hex Color: #3d7dca; RGB: (61,125,202) ...
+navy blue. Pantone: PMS 654 C (Nearest Match) Hex Color: #003a70; RGB: (0,58,112) */
+
+html {
+    font-family: Montserrat, sans-serif
+}
+
+h1 {
+  color: #003a70;
+  background-color: inherit;
+  text-shadow: 2px 2px 4px #000;
+  text-align: center;
+}
+
+.center {
+  text-align: center;
+}
+
+.navbar {
+    color:inherit;
+    background-color: rgb(245,245,245);
+    font-family: Montserrat, sans-serif
+}
+
+.navbar a:hover {
+    font-weight: 700
+}
+
+.main-logo__item {
+    display: block;
+    margin: 0 auto;
+
+    width: 80%;
+    height: auto
+}
+
+.button-class {
+    color: white;
+    background-color: rgb(0,58,112);
+    display: block;
+    border: none;
+    width: 250px;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    font-size: 1rem;
+    font-family: Montserrat, sans-serif;
+    cursor: pointer;
+    text-align: center;
+}
+
+.pokemon-list {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0
+}
+
+.modal-image {
+    width: 250px;
+    height: auto;
+    text-align: center
+}
+
+.modal-dialog {
+    font-family: Montserrat, sans-serif;
+    text-align: center
+}
+
+/* Form layout: added !important so it overrides- makes it more important. I noticed not using this caused W3C errors*/
+#message {
+    height: 130px !important;
+}
+
+.btn.btn-md {
+    padding: 10px 25px !important;
+}
+.btn-primary {
+    background: #da1212 !important;
+    color: #fff !important;
+    border: 2px solid #000 !important;
+    border-radius: 0px !important;
+}
+
+.form-control{
+    appearance: none;
+    box-shadow: none;
+    color: inherit;
+    background: #fff;
+    border: 2px solid rgba(0, 0, 0, 0.1) !important;
+    height: 54px !important;
+    font-size: 18px;
+    font-weight: 300;
+
+    border-radius: 0px !important;
+}
+
+.page-footer {
+  background-color: rgb(245,245,245);
+  color: inherit;
+}
